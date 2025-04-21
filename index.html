@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vite + React + TS</title>
+  </head>
+  <body>
+
+<!-- Occupation Search Widget -->
+<script>
+  window.OCCUPATION_SEARCH_CONFIG = {
+  "primaryColor": "#2563eb",
+  "secondaryColor": "#f3f4f6",
+  "borderRadius": "1rem",
+  "width": "300px",
+  "position": "right",
+  "tools": [
+    "search",
+    "points",
+    "fees",
+    "docs"
+  ]
+};
+</script>
+<script src="http://localhost:3334/widget.js" async></script>
+
+    
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
